@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Attendence>
+@{
+    ViewBag.Title = "Report";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Report</h2>
+
+<div class="row">
+    <div class="table-responsive">
+
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Absence_Date)
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Absence_Date)
+                    </td>
+                    
+                </tr>
+            }
+
+        </table>
+  </div>

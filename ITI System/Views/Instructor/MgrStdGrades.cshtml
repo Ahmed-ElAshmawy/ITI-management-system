@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Student_Course_Instructor>
+@{
+    ViewBag.Title = "MgrStdGrades";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var stdlist= TempData["stdlist"] as List<Student>;
+    var crslist = TempData["crslist"] as List<Course>;
+    var StudentExam = TempData["StudentExam"] as List<StudentExam>;
+}
+
+<h2>MgrStdGrades</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <tr>
+            <td>Student Name</td>
+            <td>Course Name</td>
+            <td>Exam Grade</td>
+            <td>Lab Grade</td>
+        </tr>
+        @for (int i = 0; i < stdlist.Count; i++)
+        {
+            <tr>
+                <td>
+                    @stdlist[i].FirstName @stdlist[i].LastName                    
+                </td>
+                <td>
+                    @crslist[i].Crs_name
+                </td>
+                <td>
+                    @StudentExam[i].Std_Grade
+                </td>
+                <td>
+                    @Model.ToArray()[i].Std_Lab_Eval
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+

@@ -1,0 +1,13 @@
+﻿@model Department
+@{
+    ViewBag.Title = "CrsDept";
+}
+
+@Html.DropDownListFor(a => a.Dept_Id, ViewBag.deptCrs_drop as SelectList, "Sellect Department", new { @class = "form-control", @id = "drop3" })
+
+
+<script>
+    $("#drop3").change(function () {
+        $('#InsList').load("/Instructor/CrsInsDept/" + $("#drop3").val() + "?crs_id=" + $("#drop2").val());
+    })
+</script>

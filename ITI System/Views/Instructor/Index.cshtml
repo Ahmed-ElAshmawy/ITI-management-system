@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Instructors</h2>
+
+<div id="list">
+    @Html.Partial("inst_list", ViewBag.Instlist as List<Instructor>)
+</div>
+<script src="~/Scripts/jquery-1.12.4.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+
+<script>
+    function EditInst() {
+        $("#InstModal").modal("toggle");
+    }
+
+    function InsDetails() {
+        $("#DetailModal").modal("toggle");
+    }
+
+</script>

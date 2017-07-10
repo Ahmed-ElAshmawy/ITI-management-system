@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    @* ----------------- *@
+    <div class="row" id="sidebar" style="margin-top:85px;">
+        <!-- Sidebar-->
+        <div class="col-md-3" >
+            <div class="list-group">
+                <br /><br />
+                <a  href="" style="background-color:lightgray;"><h1>Admin</h1></a>
+                <a href="/Student/Index" class="btn btn-link"> Students</a><br />
+                <a href="/Student/Import" class="btn btn-link"> Import student from file</a>
+            </div>
+        </div>
+        <!-- Content Column -->
+        <div class="col-md-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+
+@RenderSection("scripts", required: false)

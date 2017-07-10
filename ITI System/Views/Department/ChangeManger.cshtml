@@ -1,0 +1,129 @@
+﻿@model List<ITI_System.Models.Instructor>
+@{
+    var Dep = TempData["deptartment"] as Department;
+}
+<h2>Choose Manager</h2>
+<div class="table-responsive">
+    <form action="/Department/SetManager" method="post">
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>
+                    Department ID
+                </th>
+                <th>
+                    Department Name
+                </th>
+                <th>
+                    Department Capacity
+                </th>
+                <th>
+                    Manager ID
+                </th>
+            </tr>
+            <tr>
+                <td>
+
+                    @Dep.Dept_Id
+                </td>
+                <td>
+                    @Dep.Dept_name
+                </td>
+                <td>
+                    @Dep.Dept_Capacity
+                </td>
+                <td>
+                    @Dep.Manager_Id
+                </td>
+
+            </tr>
+        </table>
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>
+
+                </th>
+                <th>
+                    Instructor UserName
+                </th>
+                <th>
+                    Instructor Fname
+                </th>
+                <th>
+                    Instructor Lname
+                </th>
+                <th>
+                    Instructor Email
+                </th>
+                <th>
+                    Instructor PhoneNumber
+                </th>
+                <th>
+                    Instructor GraduationYear
+                </th>
+                <th>
+                    Instructor Qualifications
+                </th>
+                <th>
+                    Instructor BirthDate
+                </th>
+                <th>
+                    Instructor Married
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>
+                        <input type="hidden" value="@Dep.Dept_Id" name="deptOfMan" />
+                        @if (item.Id == Dep.Manager_Id)
+                        {
+                            <input type="radio" value="@item.Id" name="RadioChoosen" checked />
+                        }
+                        else
+                        {
+                            <input type="radio" value="@item.Id" name="RadioChoosen" />
+                        }
+                            
+                        </td>
+                        <td>
+                            @Html.DisplayFor(a => item.UserName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(a => item.FirstName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(a => item.LastName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(a => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(a => item.PhoneNumber)
+                        </td>
+                        <td>
+                            @item.Ins_GraduationYear.ToShortDateString()
+                        </td>
+                        <td>
+                            @Html.DisplayFor(a => item.Ins_Qualifications)
+                        </td>
+                        <td>
+                            @item.BirthDate.ToShortDateString()
+                        </td>
+                        <td>
+                            @item.IsMarried
+                        </td>
+                    </tr>
+            }
+        </table>
+        <input type="submit" class="btn btn-primary" />
+    </form>
+</div>
+<script>
+    function changeMan() {
+        alert(document.getElementById.val());
+    }
+    /*$("#"+).change( function () {
+        var DeptId = $("#DeptDropDown").val();
+    })*/
+</script>

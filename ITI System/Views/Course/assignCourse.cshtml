@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ITI_System.Models.Course>
+@{
+    ViewBag.Title = "assignCourse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Assign Course</h2>
+@using (Html.BeginForm("assignCourse", "Course", FormMethod.Post, new { @class = "form-horizontal", id = "myForm" }))
+{
+
+    //department
+    <div class="form-group">
+       
+        <div class="col-xs-6">
+            @Html.DropDownList("deps", ViewBag.depts as SelectList, new { @class = "form-control" ,name="myList"})
+        </div>
+</div>
+<div class="col-xs-12">
+    @foreach (var item in Model)
+    {
+        <div class="row col-xs-4">
+            <input type="checkbox"  value="@item.Crs_Id" name="courses"/>
+            @Html.DisplayFor(modelItem => item.Crs_name)
+        </div>
+    }
+</div>
+
+    //button
+    <div class="form-group">
+        <div class="col-sm-6">
+            <input type="submit" value="Assign" class="btn btn-primary" />
+        </div>
+    </div>
+}
+

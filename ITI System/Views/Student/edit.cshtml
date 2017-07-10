@@ -1,0 +1,93 @@
+﻿@model Student
+
+<div class="container">
+    <div class="row">
+        <form class="form-group" action="/Student/edit" method="post">
+
+            <div class="form-group col-sm-push-1 col-sm-10">
+                <input type="hidden" name="id" value="@Model.Id" class="form-control" />
+            </div>
+            <br />
+
+            <div class="form-group col-sm-10">
+                <div class="col-sm-2">
+                    @Html.LabelFor(a => a.FirstName, new { @class = "control-label" })
+                </div>
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(a => a.FirstName, new { @class = "form-control" })
+                </div>
+                <div class="col-sm-3">
+                    @Html.ValidationMessageFor(a => a.FirstName)
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group col-sm-10">
+                <div class="col-sm-2">
+                    @Html.LabelFor(a => a.LastName, new { @class = "control-label" })
+                </div>
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(a => a.LastName, new { @class = "form-control" })
+                </div>
+                <div class="col-sm-3">
+                    @Html.ValidationMessageFor(a => a.LastName)
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group col-sm-10">
+                <div class="col-sm-2">
+                    @Html.LabelFor(a => a.PhoneNumber, new { @class = "control-label" })
+                </div>
+                <div class="col-sm-5">
+                    @Html.TextBoxFor(a => a.PhoneNumber, new { @class = "form-control" })
+                </div>
+                <div class="col-sm-3">
+                    @Html.ValidationMessageFor(a => a.PhoneNumber)
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group col-sm-10">
+                <div class="col-sm-2">
+                    @Html.LabelFor(a => a.BirthDate, new { @class = "control-label" })
+                </div>
+                <div class="col-sm-5">
+                    @Html.EditorFor(a => a.BirthDate, new { @class = "form-control" })
+                </div>
+                <div class="col-sm-3">
+                    @Html.ValidationMessageFor(a => a.BirthDate)
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group col-sm-10">
+                <div class="col-sm-2">
+                    @Html.LabelFor(a => a.IsMarried, new { @class = "control-label" })
+                </div>
+                <div class="col-sm-5">
+                    @Html.EditorFor(model => model.IsMarried)
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group col-sm-10">
+                <div class="col-sm-2">
+                    @Html.LabelFor(a => a.Dept_Id, new { @class = "control-label" })
+                </div>
+                <div class="col-sm-5">
+                    @Html.DropDownListFor(a => a.Dept_Id, ViewBag.dept_drop as SelectList, new { @class = "form-control" })
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group col-sm-6">
+                <div class="col-sm-6">
+                    <input type="submit" value="Update" class="btn btn-success" />
+                    @Html.ActionLink("Back to List", "Index", "Student", new { @class = "btn btn-warning" })
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿@model ITI_System.Models.Department
+
+@{
+    ViewBag.Title = "Create Department";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Department</h2>
+
+<form class="form-group" action="/Department/create" method="post">
+
+    <div class="form-group col-sm-push-1 col-sm-10">
+        <div class="col-sm-2">
+            @Html.LabelFor(a => a.Dept_name, new { @class = "control-label" })
+        </div>
+        <div class="col-sm-5">
+            @Html.TextBoxFor(a => a.Dept_name, new { @class = "form-control" })
+        </div>
+        <div class="col-sm-3">
+            @Html.ValidationMessageFor(a => a.Dept_name)
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group col-sm-push-1 col-sm-10">
+        <div class="col-sm-2">
+            @Html.LabelFor(a => a.Dept_Capacity, new { @class = "control-label" })
+        </div>
+        <div class="col-sm-5">
+            @Html.TextBoxFor(a => a.Dept_Capacity, new { @class = "form-control" })
+        </div>
+        <div class="col-sm-3">
+            @Html.ValidationMessageFor(a => a.Dept_Capacity)
+        </div>
+    </div>
+    <br />
+
+    <div class="form-group col-sm-push-1 col-sm-10">
+        <div class="col-sm-2">
+            @Html.LabelFor(a => a.Manager_Id, new { @class = "control-label" })
+        </div>
+        <div class="col-sm-5">
+            @Html.DropDownListFor(a => a.Manager_Id, ViewBag.manage_drop as SelectList, "No manager", new { @class = "form-control" })
+        </div>
+    </div>
+    <br />
+
+    
+
+    <div class="form-group col-sm-push-6 col-sm-6">
+        <div class="col-sm-6">
+            <input type="submit" value="Create" class="btn btn-success" />
+            @Html.ActionLink("Back to List", "Index", "Department", new { @class = "btn btn-warning" })
+        </div>
+
+    </div>
+</form>

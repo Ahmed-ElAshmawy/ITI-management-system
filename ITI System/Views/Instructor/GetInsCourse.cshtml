@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Course>
+
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>
+            Course Name
+        </th>
+        <th>
+            Course Lab Duration
+        </th>
+        <th>
+            Course Lecture Duration
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Crs_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Crs_LabDuration)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Crs_LectDuration)
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ITI_System.Models.Department>
+
+@{
+    ViewBag.Title = "Departments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Departments</h2>
+<br />
+@Html.ActionLink("Import Department", "Import")
+<br />
+<br />
+
+<div class="row">
+    <div class="table-responsive">
+        <p>
+            @Html.ActionLink("Create New", "Create", "Department", new { @class = "btn btn-primary" })
+        </p>
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>
+                    Department ID
+                </th>
+                <th>
+                    Department Name
+                </th>
+                <th>
+                    Department Capacity
+                </th>
+                <th>
+                    Manager ID
+                </th>
+                <th>
+                    Operation
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dept_Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dept_name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dept_Capacity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Manager_Id)
+                    </td>
+                    <td>
+                        @Ajax.ActionLink("Edit", "Edit", new { id = item.Dept_Id }, null, new { @class = "btn btn-warning" })
+                        @Ajax.ActionLink("Delete", "delete", new { id = item.Dept_Id }, null, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+        <div class="col-xs-9 col-xs-offset-1">
+            @Html.ActionLink("Students Per Department", "StdOfDept", null, new { @class = "btn btn-info" })
+            @Html.ActionLink("Instructors Per Department", "InstOfDept", null, new { @class = "btn btn-info" })
+            @Html.ActionLink("Courses Per Department", "CrsOfDept", null, new { @class = "btn btn-info" })
+            @Html.ActionLink("Change Manager of Department", "DeptListManager", null, new { @class = "btn btn-info" })
+        </div>
+    </div>
+</div>

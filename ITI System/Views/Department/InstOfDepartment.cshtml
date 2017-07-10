@@ -1,0 +1,164 @@
+﻿@model List<ITI_System.Models.Instructor>
+@{
+    var Dep = TempData["deptartment"] as Department;
+    var inst = TempData["instructor"] as Instructor;
+}
+<h2>Instructors</h2>
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>
+                Department ID
+            </th>
+            <th>
+                Department Name
+            </th>
+            <th>
+                Department Capacity
+            </th>
+            <th>
+                Manager ID
+            </th>
+        </tr>
+        <tr>
+            <td>
+
+                @Dep.Dept_Id
+            </td>
+            <td>
+                @Dep.Dept_name
+            </td>
+            <td>
+                @Dep.Dept_Capacity
+            </td>
+            <td>
+                @Dep.Manager_Id
+            </td>
+
+        </tr>
+    </table>
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>
+                Manager UserName
+            </th>
+            <th>
+                Manager Fname
+            </th>
+            <th>
+                Manager Lname
+            </th>
+            <th>
+                Manager Email
+            </th>
+            <th>
+                Manager PhoneNumber
+            </th>
+            <th>
+                Manager GraduationYear
+            </th>
+            <th>
+                Manager Qualifications
+            </th>
+            <th>
+                Manager BirthDate
+            </th>
+            <th>
+                Manager Married
+            </th>
+        </tr>
+        <tr style="background-color:green; color:white">
+            <td>
+                @inst.UserName
+            </td>
+            <td>
+                @inst.FirstName
+            </td>
+            <td>
+                @inst.LastName
+            </td>
+            <td>
+                @inst.Email
+            </td>
+            <td>
+                @inst.PhoneNumber
+            </td>
+            <td>
+                @inst.Ins_GraduationYear
+            </td>
+            <td>
+                @inst.Ins_Qualifications
+            </td>
+            <td>
+                @inst.BirthDate
+            </td>
+            <td>
+                @inst.IsMarried
+            </td>
+        </tr>
+        </table>
+        <table class="table table-bordered table-hover">
+            <tr>
+    <th>
+        Instructor UserName
+    </th>
+    <th>
+        Instructor Fname
+    </th>
+    <th>
+        Instructor Lname
+    </th>
+    <th>
+        Instructor Email
+    </th>
+    <th>
+        Instructor PhoneNumber
+    </th>
+    <th>
+        Instructor GraduationYear
+    </th>
+    <th>
+        Instructor Qualifications
+    </th>
+    <th>
+        Instructor BirthDate
+    </th>
+    <th>
+        Instructor Married
+    </th>
+</tr>
+@foreach (var item in Model)
+{
+
+    <tr>
+        <td>
+            @Html.DisplayFor(a => item.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.PhoneNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.Ins_GraduationYear)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.Ins_Qualifications)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.BirthDate)
+        </td>
+        <td>
+            @Html.DisplayFor(a => item.IsMarried)
+        </td>
+    </tr>
+}
+        </table>
+</div>

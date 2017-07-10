@@ -1,0 +1,14 @@
+﻿@model Instructor
+@{
+    ViewBag.Title = "CrsInsDept";
+}
+
+@Html.DropDownListFor(a => a.Id, ViewBag.ins_drop as SelectList, "Sellect Instructor", new { @class = "form-control", @id = "drop" })
+<div>
+    <button class="btn btn-primary" onclick="go()">Show Students</button>
+</div>
+<script>
+    function go() {
+        location.href = "/Instructor/InsCrsStd/" + $("#drop").val() + "?crs_id=" + $("#drop2").val()
+    }
+</script>

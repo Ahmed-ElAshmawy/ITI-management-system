@@ -1,0 +1,99 @@
+﻿@model Instructor
+
+<div>
+    <h4>Instructor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            First Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.FirstName)
+        </dd>
+
+        <dt>
+            Last Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.LastName)
+        </dd>
+
+        <dt>
+            Is Married
+        </dt>
+
+        <dd>
+            @Model.IsMarried
+        </dd>
+
+        <dt>
+            Birth Date
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.BirthDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(a => a.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.Email)
+        </dd>
+
+        <dt>
+            Phone Number
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.PhoneNumber)
+        </dd>
+
+        <dt>
+            User Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.UserName)
+        </dd>
+
+        <dt>
+            Qualifications
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.Ins_Qualifications)
+        </dd>
+
+        <dt>
+            Status
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.Ins_Status)
+        </dd>
+
+        <dt>
+            GraduationYear
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.Ins_GraduationYear)
+        </dd>
+
+        <dt>
+            Department
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(a => a.Department.Dept_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

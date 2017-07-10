@@ -1,0 +1,16 @@
+﻿@model ITI_System.Models.Student
+    <div>
+        <h2> Are you sure you want to Delete this Student ?</h2>
+</div>
+
+<p>
+        @Ajax.ActionLink("Confirm", "deleteStud", new { id = Model.Id }, new AjaxOptions()
+   {
+       HttpMethod = "POST",
+       InsertionMode = InsertionMode.Replace,
+       UpdateTargetId = "list",
+       OnSuccess = "DeleteStud()"
+   }, new { @class = "btn btn-danger"}) |
+
+    @Html.ActionLink("Cancel", "Index")
+</p>

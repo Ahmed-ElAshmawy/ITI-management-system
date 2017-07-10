@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ITI_System.Models.Instructor>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayName("evaluation Grade")
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DropDownList("eval_grad", ViewBag.evaluations as SelectList, new { @id = "eval_grad" })
+
+        </td>
+       
+    </tr>
+}
+
+</table>

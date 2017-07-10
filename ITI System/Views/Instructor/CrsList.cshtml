@@ -1,0 +1,28 @@
+﻿@model ITI_System.Models.Department_Instructor_Course
+@{
+    ViewBag.Title = "CrsList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CrsList</h2>
+
+<div class="row">
+    <div class="col-sm-4">
+        @Html.DropDownListFor(a => a.Crs_Id, ViewBag.crs_drop as SelectList, "Select Course", new { @class = "form-control", @id = "drop2" })
+    </div>
+    <div id="DeptList" class="col-sm-4">
+
+    </div>
+    <div id="InsList" class="col-sm-4">
+
+    </div>
+</div>
+
+<script>
+    $("#drop2").change(function () {
+        $('#DeptList').load("/Instructor/CrsDept/" + $("#drop2").val());
+    })
+</script>
+
+
+

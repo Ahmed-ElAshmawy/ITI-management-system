@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ITI_System.Models.Permission>
+
+@{
+    ViewBag.Title = "Permissions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Permissions</h2>
+
+<p>
+    @Html.ActionLink("New Permession", "CreatePermission", new {Id=ViewBag.dept_id})
+</p>
+<table class="table">
+    <tr>
+        <th>
+          Student Name
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Perm_Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.Student.FirstName @item.Student.LastName
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.Perm_Date)
+        </td>
+    </tr>
+}
+
+</table>

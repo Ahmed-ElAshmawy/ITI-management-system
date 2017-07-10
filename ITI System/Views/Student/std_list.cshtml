@@ -1,0 +1,177 @@
+﻿@model IEnumerable<Student>
+
+<div class="row">
+    <div class="table-responsive">
+        <p>
+            @Html.ActionLink("Add New Student", "create","Student", new { @class = "btn btn-primary" })
+        </p>
+
+        <table class="table table-bordered table-hover">
+            <tr>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    Is Married
+                </th>
+                <th>
+                    Birth Date
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Phone Number
+                </th>
+                <th>
+                    User Name
+                </th>
+                <th>
+                    Department
+                </th>
+                <th>Operation</th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastName)
+                    </td>
+                    <td>
+                        @item.IsMarried
+                    </td>
+                    <td>
+                        @item.BirthDate.ToShortDateString()
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PhoneNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Department.Dept_name)
+                    </td>
+                    <td>
+                        @Ajax.ActionLink("Edit", "edit", new { id = item.Id }, new AjaxOptions()
+                   {
+                       HttpMethod = "GET",
+                       InsertionMode = InsertionMode.Replace,
+                       UpdateTargetId = "EditModal",
+                       OnSuccess = "EditFun()"
+                   }, new { @class = "btn btn-warning" }) |
+
+                        @Ajax.ActionLink("Details", "details", new { id = item.Id }, new AjaxOptions()
+                   {
+                       HttpMethod = "GET",
+                       InsertionMode = InsertionMode.Replace,
+                       UpdateTargetId = "modalBody",
+                       OnSuccess = "DetailsFun()"
+                   }, new { @class = "btn btn-primary" }) |
+
+                        @Ajax.ActionLink("Delete", "delete", new { id = item.Id }, new AjaxOptions()
+                   {
+                       HttpMethod = "GET",
+                       InsertionMode = InsertionMode.Replace,
+                       UpdateTargetId = "modalDelBody",
+                       OnSuccess = "DeleteFun()"
+                   }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
+
+
+
+<div>
+    <div class="modal" id="DetailModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4> Student Details</h4>
+                    <button class="close" data-dissmiss="modal">&times;</button>
+                </div>
+                <div class="modal-body" id="modalBody"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div>
+    <div class="modal" id="DeleteModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4> Delete Student</h4>
+                    <button class="close" data-dissmiss="modal">&times;</button>
+                </div>
+                <div class="modal-body" id="modalDelBody"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+@*
+    <div>
+        <div class="modal" id="EditModal" style="background-color: #ffffff">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4> Edit Student Details</h4>
+                        <button class="close" data-dissmiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" id="EditModal"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+*@
+<div>
+    <div class="modal" id="EditModalid" style="background-color: #ffffff">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4> Edit Instructor</h4>
+                    <button class="close" data-dissmiss="modal">&times;</button>
+                </div>
+                <div class="modal-body" id="EditModal"></div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    function DetailsFun() {
+        $("#DetailModal").modal("toggle");
+    }
+    function DeleteFun() {
+        $("#DeleteModal").modal("toggle");
+    }
+
+</script>
+

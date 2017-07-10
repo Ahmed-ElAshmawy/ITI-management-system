@@ -1,0 +1,28 @@
+﻿@model ITI_System.Models.Department
+@{
+    ViewBag.Title = "StdOfDept";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>StdOfDept</h2>
+
+<div class="row">
+    <div class="table-responsive">
+        <div class="form-group col-sm-push-1 col-sm-10">
+            @Html.DropDownListFor(a => a.Dept_Id, ViewBag.dept_drop as SelectList, "No Dept", new { @class = "form-control" ,@id="DeptDropDown" })
+            <br />
+            @Html.ActionLink("Back to List", "Index", "Department", new { @class = "btn btn-warning" })
+        </div>
+        <div id="H" class="col-xs-9">
+
+        </div>
+        <br />
+        
+        <script>
+            $("#DeptDropDown").change( function () {
+                var DeptId = $("#DeptDropDown").val();
+                $("#H").load("http://localhost:39802/Department/StdOfDepartment/" + DeptId);
+            })
+        </script>
+    </div>
+</div>

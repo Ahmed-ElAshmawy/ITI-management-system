@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "GetDept";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GetDept</h2>
+
+
+
+    <div class="form-group">
+
+        <div class="col-xs-6">
+            @Html.DropDownList("deps", ViewBag.depts as SelectList, new { @class = "form-control", id = "myList" })
+        </div>
+    </div>
+<br />
+    <div id="StdList">
+
+
+    </div>
+
+<div id="dates">
+
+</div>
+
+    
+
+
+<script>
+    $(function () {
+
+        $('#myList').change(function () {
+            $('#StdList').load("/Instructor/GetDeptSelected/" + $("#myList").val());
+            
+        });
+        $('body').on('change', '#myStdList', function () {
+            var value = $("#myStdList").val();
+            $('#dates').load("/Instructor/studentID/" + $("#myStdList").val());
+        })
+        
+
+    })
+   
+</script>
+

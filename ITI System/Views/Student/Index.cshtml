@@ -1,0 +1,28 @@
+﻿@using ITI_System.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<div id="list">
+    @Html.Partial("std_list", ViewBag.studlist as List<Student>)
+   
+</div>
+<script src="~/Scripts/jquery-1.12.4.js"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+<link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+<script>
+    function DeleteStud() {
+        $("#DeleteModal").modal("hide");
+        $(".in").hide();
+
+
+    }
+    function EditFun() {
+        $("#EditModalid").modal("toggle");
+    }
+
+</script>

@@ -1,0 +1,18 @@
+﻿@using ITI_System.Models
+@model st_permession
+@{
+    ViewBag.Title = "Std_Att_Rang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Std_Att_Rang</h2>
+@using (Html.BeginForm("Std_Att_Rang", "Instructor", FormMethod.Post, new { @class = "form-horizontal", id = "myForm" }))
+{
+    @Html.LabelFor(model => model.Perm_Date_from);
+    @Html.EditorFor(model => model.Perm_Date_from);
+    <br />
+    @Html.LabelFor(model => model.Perm_Date_to);
+    @Html.EditorFor(model => model.Perm_Date_to);
+    <input type="submit" value="View"/>
+}
+

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Course>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Course</h2>
+
+<div class="row">
+    <div class="table-responsive">
+        
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Crs_name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Crs_LabDuration)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Crs_LectDuration)
+                </th>
+                <th>
+                    Operations
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Crs_name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Crs_LabDuration)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Crs_LectDuration)
+                    </td>
+                    <td>
+                        @Ajax.ActionLink("Edit", "Edit", new { id = item.Crs_Id }, new AjaxOptions()
+                   {
+                       HttpMethod = "Get"
+                   }, new { @class = "btn btn-warning" })
+                        @Ajax.ActionLink("Delete", "Delete", new { id = item.Crs_Id }, new AjaxOptions()
+                   {
+                       HttpMethod = "Get"
+                   }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    <p>
+        @Html.ActionLink("Create New", "Create", "Course", new { @class = "btn btn-primary" })
+        @Html.ActionLink("Assign courses to departments", "assignCourse", "Course", new { @class = "btn btn-primary" })
+        @Html.ActionLink("Assign courses to instructors", "assignInstructor", "Course", new { @class = "btn btn-primary" })
+        @Html.ActionLink("Assign instructors", "assignDepCrsInsee", "Course", new { @class = "btn btn-primary" })
+    </p>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+

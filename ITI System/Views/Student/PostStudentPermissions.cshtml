@@ -1,0 +1,24 @@
+﻿@model IEnumerable<PostStudentPermissions_Anonymous>   
+
+@{
+    ViewBag.Title = "PostStudentPermissions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>PostStudentPermissions</h2>
+
+<div class="table table-responsive">
+    <table class="table table-striped">
+        <tr>
+            <td>Student Name</td>
+            <td>Permission Date</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName @item.LastName</td>
+                <td>@item.Perm_Date</td>
+            </tr>
+        }
+    </table>
+</div>

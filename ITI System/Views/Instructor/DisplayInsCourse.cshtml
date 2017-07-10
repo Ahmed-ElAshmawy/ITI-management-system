@@ -1,0 +1,30 @@
+﻿@model Instructor
+
+@{
+    ViewBag.Title = "DisplayInsCourse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DisplayInsCourse</h2>
+<hr />
+<div class="col-sm-4">
+    @Html.DropDownListFor(a => a.Id, ViewBag.ins_drop as SelectList, "Sellect Instructor", new { @class = "form-control", @id = "drop" })
+
+
+
+</div>
+<br />
+<br />
+<div id="CourseList">
+
+</div>
+<br />
+<script>
+    $("#drop").change(function () {
+        $('#CourseList').load("/Instructor/GetInsCourse/" + $("#drop").val());
+    })
+</script>
+
+
+
+

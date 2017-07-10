@@ -1,0 +1,40 @@
+﻿@model ITI_System.Models.Department
+@{
+    ViewBag.Title = "reportStdInDate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Absence_Date = TempData["dateList"] as Attendence;
+}
+
+<h2>reportStdInDate</h2>
+<form class="form-group" action="/Instructor/reportStdInDateGet" >
+<div class="row">
+    <div class="table-responsive">
+        <div class="form-group col-sm-push-1 col-sm-5">
+            @Html.DropDownListFor(a => a.Dept_Id, ViewBag.dept_drop as SelectList, "No Dept", new { @class = "form-control", @id = "DeptDropDown" })
+        </div>
+        <div class="input-group col-md-3 col-md-offset-2 ">
+    
+    <div class="input-group date" data-provide="datepicker">
+        <input type="text" class="form-control" name="Date">
+        <div class="input-group-addon">
+            <span class="glyphicon glyphicon-th"></span>
+        </div>
+    </div>
+</div>
+        <div id="H" class="col-xs-9">
+
+        </div>
+        <br />
+    </div>
+    <input type="submit" value="Students"/>
+</div>
+    </form>
+
+        <script>
+            $("#DeptDropDown").change(function () {
+                var DeptId = $("#DeptDropDown").val();
+                var dateData = $("#DateDropDown").val();
+                $("#H").append();
+            })
+        </script>
+    

@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Student_Course_Instructor>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var stdlist = TempData["stdlist"] as List<Student>;
+}
+<h2>Update Grades</h2>
+<div class="row">
+
+    <form class="form-horizontal" action="/Instructor/updatestdgrades" method="post">
+
+        @for (int i = 0; i < stdlist.Count; i++)
+        {
+            <label class="control-label">@stdlist.ToArray()[i].FirstName @stdlist.ToArray()[i].LastName</label>
+            <input class="form-control" type="text" name="stds[@i].Std_Lab_Eval" value="@Model.ToArray()[i].Std_Lab_Eval"/>
+
+            <input type="hidden" value="@Model.ToArray()[i].Crs_Id" name="stds[@i].Crs_Id" /><br />
+            <input type="hidden" value="@Model.ToArray()[i].Std_Id" name="stds[@i].Std_Id" /><br />
+        }
+            <input type="submit" value="Edit" class="btn btn-warning" />
+            @Html.ActionLink("Back to List", "CrsList", "Instructor", new { @class = "btn btn-warning" })
+    </form>
+</div>

@@ -1,0 +1,28 @@
+﻿@model Student
+@{
+    ViewBag.Title = "Attendence";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Attendence</h2>
+<div class="col-sm-5">
+    @Html.DropDownListFor(a => a.Dept_Id, ViewBag.dept_drop as SelectList, "Select Department", new { @class = "form-control", @id= "drop" })
+</div>
+<br />
+<br />
+<div id="StdList">
+
+
+</div>
+
+
+
+
+
+<script>
+    $("#drop").change(function () {
+        alert($("#drop").val());
+        $('#StdList').load("/Student/GetDeptStud/" + $("#drop").val());
+        
+    })
+</script>

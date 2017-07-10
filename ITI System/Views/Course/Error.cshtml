@@ -1,0 +1,47 @@
+﻿
+@model ITI_System.Models.Course
+
+<h3>This course can't be deleted because it's aleardy assigned to students</h3>
+<div>
+
+    <hr />
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <dl class="dl-horizontal">
+            @Html.HiddenFor(model => model.Crs_Id)
+            <dt>
+                @Html.DisplayNameFor(model => model.Crs_name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Crs_name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Crs_LabDuration)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Crs_LabDuration)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Crs_LectDuration)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Crs_LectDuration)
+            </dd>
+
+        </dl>
+
+
+
+        <div class="form-actions no-color">
+
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
+

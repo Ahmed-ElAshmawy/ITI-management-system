@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ITI_System.Models.Student_Course_Instructor>
+
+@{
+    ViewBag.Title = "MgrInsEval";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MgrInsEval</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Course Name
+        </th>
+        <th>
+            Instructor Name
+        </th>
+        <th>
+            Student Name
+        </th>
+        <th>
+            Instructor Evaluation
+        </th>
+ 
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Course.Crs_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Instructor.FirstName)
+        </td>
+        <td>
+            @item.Student.FirstName @item.Student.LastName 
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ins_Eval)
+        </td>
+    </tr>
+}
+
+</table>

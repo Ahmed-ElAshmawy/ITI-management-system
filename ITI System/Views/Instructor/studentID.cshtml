@@ -1,0 +1,29 @@
+﻿@using ITI_System.Models
+@model st_permession
+    @using (Html.BeginForm("Report", "Instructor", FormMethod.Post, new { @class = "form-horizontal", id = "myForm" }))
+    {
+
+       
+        <div class="form-group">
+
+            <div class="col-xs-6">
+                @Html.LabelFor(mode => mode.Perm_Date_from)
+                @Html.EditorFor(mode => mode.Perm_Date_from)
+
+            </div>
+            <br />
+
+        </div>
+        <br />
+        <div class="col-xs-6">
+            @Html.LabelFor(mode => mode.Perm_Date_to)
+            @Html.EditorFor(mode => mode.Perm_Date_to)
+        </div>
+        <div class="form-group">
+            <div class="col-sm-6">
+                <input type="submit" value="Get Students" class="btn btn-primary" />
+            </div>
+        </div>
+    }
+
+

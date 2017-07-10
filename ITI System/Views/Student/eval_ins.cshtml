@@ -1,0 +1,139 @@
+﻿@model IEnumerable<ITI_System.Models.Instructor>
+@{
+    ViewBag.Title = "eval_ins";
+    Layout = "~/Views/Shared/_LayoutPageStd.cshtml";
+}
+<style>
+    .starRating input {
+        display: none;
+    }
+
+    .starRating label {
+        width: 18px;
+        height: 16px;
+        display: inline-block;
+        text-indent: -9999px; /* hide the label text off screen */
+        background: url("rating_stars.png") -155px -32px;
+        background-image: url('../../Content/images/rating_stars.png');
+    }
+
+        .starRating label.on {
+            background-position: -155px -76px;
+        }
+</style>
+<h2>Instructor evaluation</h2>
+<br />
+@using (Html.BeginForm("eval_ins", "Student", FormMethod.Post))
+{
+   
+
+
+    @Html.DropDownList("crs_id", ViewBag.stdCrs as SelectList, "select course", new { @id = "selected_crs" })
+    <br />
+    <br />
+
+    if (ViewBag.flag == 1)
+    { 
+        <table class="table">
+            <tr>
+                <th>
+                 Instructor Name
+                </th>
+                <th>
+                    @Html.DisplayName("evaluation Grade")
+                </th>
+                <th></th>
+
+            </tr>
+
+            @foreach (var item in Model)
+            {@Html.Hidden("ins", item.Id);
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FirstName)
+                    @Html.DisplayFor(modelItem => item.LastName)
+                        
+                    </td>
+                    <td>
+                        @Html.DropDownList("eval_grad", ViewBag.evaluations as SelectList, new { @id = "eval_grad" })
+
+                    </td>
+                    <td>
+                        <div class="control-group">
+                            <label class="control-label" for="review-rating">Rating</label>
+                            <div class="controls rating">
+                                <label>
+                                    <input type="radio" name="review-rating" value="1" id="eval_grad" />1
+                                </label>
+                                <label>
+                                    <input type="radio" name="review-rating" value="2" id="eval_grad" />2
+                                </label>
+                                <label>
+                                    <input type="radio" name="review-rating" value="3" id="eval_grad" />3
+                                </label>
+                                <label>
+                                    <input type="radio" name="review-rating" value="4" id="eval_grad" />4
+                                </label>
+                                <label>
+                                    <input type="radio" name="review-rating" value="5" id="eval_grad" />5
+                                </label>
+                            </div>
+                        </div>
+                    </td>
+                    
+                </tr>
+              
+            }
+
+
+        </table>
+      
+        <input type="submit" value="Send" class="btn btn-success" />
+    }
+
+
+}
+
+
+    @section scripts{
+        <script>
+
+            $(function () {
+                $('#selected_crs').change(function () {
+                    var CrsId = $(this).val();
+
+                    window.location.href = "@Url.Action("insInCrs", "Student")?course=" + CrsId;
+
+
+                });
+
+            });
+            //Star ratings
+                        $('.controls.rating')
+                .addClass('starRating') //in case js is turned off, it fals back to standard radio button
+                .on('mouseenter', 'label', function () {
+                    DisplayRating($(this)); // when we hover into a label, show the ratings
+                }
+                )
+                .on('mouseleave', function () {
+                    // when we leave the rating div, figure out which one is selected and show the correct rating level
+                    var $this = $(this),
+                        $selectedRating = $this.find('input:checked');
+
+                    if ($selectedRating.length == 1) {
+                        DisplayRating($selectedRating.parent()); // a rating has been selected, show the stars
+                    } else {
+                        $this.children().removeClass('on'); // nothing clicked, remove the stars
+                    };
+                }
+            );
+
+                        var DisplayRating = function ($el) {
+                            // for the passed in element, add the 'on' class to this and all prev labels
+                            // and remove the 'on' class from all next labels. This stops the flicker of removing then adding back
+                            $el.addClass('on').prevAll().addClass('on');
+                            $el.nextAll().removeClass('on');
+                        };
+        </script>
+    }

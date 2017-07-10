@@ -1,0 +1,45 @@
+﻿@model ITI_System.Models.Course
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    
+    <hr />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <dl class="dl-horizontal">
+        @Html.HiddenFor(model => model.Crs_Id)
+        <dt>
+            @Html.DisplayNameFor(model => model.Crs_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Crs_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Crs_LabDuration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Crs_LabDuration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Crs_LectDuration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Crs_LectDuration)
+        </dd>
+
+    </dl>
+
+   
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

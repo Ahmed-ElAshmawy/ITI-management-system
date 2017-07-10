@@ -1,0 +1,564 @@
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\csc.exe
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\System.Collections.Immutable.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\vbc.exe
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe
+G:\ITI\MVC\Project\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe.config
+G:\ITI\MVC\Project\ITI System\ITI System\bin\ITI System.dll.config
+G:\ITI\MVC\Project\ITI System\ITI System\bin\ITI System.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\ITI System.pdb
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Antlr3.Runtime.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\EntityFramework.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\EntityFramework.SqlServer.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Web.Infrastructure.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Newtonsoft.Json.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Owin.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Helpers.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Mvc.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Optimization.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Razor.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.WebPages.Deployment.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.WebPages.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.WebPages.Razor.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\WebGrease.dll
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Helpers.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Mvc.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Optimization.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.Razor.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.WebPages.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.WebPages.Deployment.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\System.Web.WebPages.Razor.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Antlr3.Runtime.pdb
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Newtonsoft.Json.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\EntityFramework.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\EntityFramework.SqlServer.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+G:\ITI\MVC\Project\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\ITI\MVC\Project\ITI System\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+G:\ITI\MVC\Project\ITI System\ITI System\obj\Debug\ITI System.dll
+G:\ITI\MVC\Project\ITI System\ITI System\obj\Debug\ITI System.pdb
+G:\ITI\MVC\Project\ITI System\ITI System\obj\Debug\ITI System.csproj.GenerateResource.Cache
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\csc.exe
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\vbc.exe
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\ITI System.dll.config
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\ITI System.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\ITI System.pdb
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Antlr3.Runtime.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\EntityFramework.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\EntityFramework.SqlServer.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Newtonsoft.Json.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Owin.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Helpers.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Mvc.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Optimization.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Razor.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.WebPages.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.WebPages.Razor.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\WebGrease.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\EntityFramework.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\EntityFramework.SqlServer.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Helpers.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Mvc.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Optimization.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.Razor.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.WebPages.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\System.Web.WebPages.Razor.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Antlr3.Runtime.pdb
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Newtonsoft.Json.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\obj\Debug\ITI System.dll
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\obj\Debug\ITI System.pdb
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\obj\Debug\ITI_System.Migrations.u.resources
+C:\Users\lamiaa\Downloads\ITI System\ITI System\ITI System\obj\Debug\ITI System.csproj.GenerateResource.Cache
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\csc.exe
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\vbc.exe
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\ITI System.dll.config
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\ITI System.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\ITI System.pdb
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Antlr3.Runtime.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\EntityFramework.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\EntityFramework.SqlServer.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Newtonsoft.Json.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Owin.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Helpers.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Mvc.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Optimization.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Razor.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.WebPages.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Razor.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\WebGrease.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\EntityFramework.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\EntityFramework.SqlServer.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Helpers.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Mvc.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Optimization.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.Razor.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.WebPages.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Razor.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Antlr3.Runtime.pdb
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Newtonsoft.Json.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\hhhhh\Desktop\ITI System\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+C:\Users\hhhhh\Desktop\ITI System\ITI System\obj\Debug\ITI System.dll
+C:\Users\hhhhh\Desktop\ITI System\ITI System\obj\Debug\ITI System.pdb
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\csc.exe
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\vbc.exe
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\ITI System.dll.config
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\ITI System.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\ITI System.pdb
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Antlr3.Runtime.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.SqlServer.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Newtonsoft.Json.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Owin.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Helpers.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Mvc.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Optimization.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Razor.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Razor.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\WebGrease.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.SqlServer.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Helpers.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Mvc.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Optimization.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Razor.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Razor.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Antlr3.Runtime.pdb
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Newtonsoft.Json.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI System.dll
+C:\Users\hhhhh\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI System.pdb
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\csc.exe
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\vbc.exe
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe
+C:\Users\H\Desktop\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\H\Desktop\ITI System\ITI System\bin\ITI System.dll.config
+C:\Users\H\Desktop\ITI System\ITI System\bin\ITI System.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\ITI System.pdb
+C:\Users\H\Desktop\ITI System\ITI System\bin\Antlr3.Runtime.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\EntityFramework.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\EntityFramework.SqlServer.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Newtonsoft.Json.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\Owin.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Helpers.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Mvc.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Optimization.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Razor.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.WebPages.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Razor.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\WebGrease.dll
+C:\Users\H\Desktop\ITI System\ITI System\bin\EntityFramework.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\EntityFramework.SqlServer.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Helpers.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Mvc.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Optimization.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.Razor.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.WebPages.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\System.Web.WebPages.Razor.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Antlr3.Runtime.pdb
+C:\Users\H\Desktop\ITI System\ITI System\bin\Newtonsoft.Json.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\H\Desktop\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\H\Desktop\ITI System\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\ITI System\ITI System\obj\Debug\ITI System.dll
+C:\Users\H\Desktop\ITI System\ITI System\obj\Debug\ITI System.pdb
+C:\Users\H\Desktop\ITI System\ITI System\obj\Debug\ITI System.csproj.GenerateResource.Cache
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\csc.exe
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\vbc.exe
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\ITI System.dll.config
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\ITI System.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\ITI System.pdb
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Antlr3.Runtime.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.SqlServer.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Newtonsoft.Json.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Owin.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Helpers.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Mvc.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Optimization.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Razor.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Razor.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\WebGrease.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\EntityFramework.SqlServer.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Helpers.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Mvc.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Optimization.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.Razor.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\System.Web.WebPages.Razor.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Antlr3.Runtime.pdb
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Newtonsoft.Json.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI System.dll
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI System.pdb
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI_System.Migrations.m.resources
+C:\Users\was\Desktop\NEW_ITI_SYS\ITI System\ITI System\obj\Debug\ITI System.csproj.GenerateResource.Cache
+C:\Users\H\Desktop\ITI System\ITI System\obj\Debug\ITI_System.Migrations.m.resources
+G:\ITI\MVC\Project\ITI System\ITI System\obj\Debug\ITI_System.Migrations.m.resources
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\csc.exe
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\vbc.exe
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\VBCSCompiler.exe
+C:\Users\H\Desktop\ITI System2\ITI System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\H\Desktop\ITI System2\ITI System\bin\ITI System.dll.config
+C:\Users\H\Desktop\ITI System2\ITI System\bin\ITI System.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\ITI System.pdb
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Antlr3.Runtime.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\EntityFramework.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\EntityFramework.SqlServer.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Newtonsoft.Json.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Owin.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Helpers.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Mvc.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Optimization.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Razor.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Razor.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\WebGrease.dll
+C:\Users\H\Desktop\ITI System2\ITI System\bin\EntityFramework.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\EntityFramework.SqlServer.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Helpers.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Mvc.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Optimization.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.Razor.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Razor.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Antlr3.Runtime.pdb
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Newtonsoft.Json.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\H\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\H\Desktop\ITI System2\ITI System\obj\Debug\ITI System.dll
+C:\Users\H\Desktop\ITI System2\ITI System\obj\Debug\ITI System.pdb
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\csc.exe
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\vbc.exe
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\VBCSCompiler.exe
+C:\Users\was\Desktop\ITI System2\ITI System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\was\Desktop\ITI System2\ITI System\bin\ITI System.dll.config
+C:\Users\was\Desktop\ITI System2\ITI System\bin\ITI System.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\ITI System.pdb
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Antlr3.Runtime.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\EntityFramework.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\EntityFramework.SqlServer.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Newtonsoft.Json.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Owin.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Helpers.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Mvc.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Optimization.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Razor.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Razor.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\WebGrease.dll
+C:\Users\was\Desktop\ITI System2\ITI System\bin\EntityFramework.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\EntityFramework.SqlServer.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Helpers.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Mvc.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Optimization.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.Razor.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\System.Web.WebPages.Razor.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Antlr3.Runtime.pdb
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Newtonsoft.Json.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\was\Desktop\ITI System2\ITI System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\was\Desktop\ITI System2\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+C:\Users\was\Desktop\ITI System2\ITI System\obj\Debug\ITI System.dll
+C:\Users\was\Desktop\ITI System2\ITI System\obj\Debug\ITI System.pdb
+C:\Users\was\Desktop\ITI System2\ITI System\obj\Debug\ITI_System.Migrations.d.resources
+C:\Users\was\Desktop\ITI System2\ITI System\obj\Debug\ITI System.csproj.GenerateResource.Cache
+C:\Users\H\Desktop\ITI System2\ITI System\obj\Debug\ITI System.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\ITI System2\ITI System\obj\Debug\ITI_System.Migrations.g.resources
+C:\Users\H\Desktop\ITI System2\ITI System\obj\Debug\ITI System.csproj.GenerateResource.Cache

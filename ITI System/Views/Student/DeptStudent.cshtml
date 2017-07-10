@@ -1,0 +1,12 @@
+﻿@model ITI_System.Models.Student
+
+<div class="form-group col-sm-push-1 col-sm-10">
+    @Html.DropDownListFor(a => a.Id, ViewBag.stud_drop as SelectList, "Select student", new { @class = "form-control", @id = "StudDropDown" })
+
+</div>
+<script>
+    $("#StudDropDown").change(function () {
+        $(".hidden").removeClass("hidden");
+        document.getElementById("ID").value = $('#StudDropDown').val();
+    })
+</script>

@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "courses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>courses</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Course name
+        </th>
+        <th>
+            Exam Grade
+        </th>
+
+    </tr>
+
+    @for (int i = 0; i < (ViewBag.courses as List<string>).Count(); i++)
+    {
+        <tr>
+            <td>
+                @((ViewBag.courses as List<string>)[i])
+
+            </td>
+            <td>
+                @((ViewBag.grades as List<int>)[i])
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ITI_System.Models.Student>
+
+
+@using (Html.BeginForm("SubmitAttendence", "Student", FormMethod.Post))
+{
+    <table class="table table-bordered">
+        <tr>
+            <th>
+                Full Name
+            </th>
+
+            <th>Attendence</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.FirstName @item.LastName
+                </td>
+                <td>
+                    <input type="checkbox" name="attendence" value="@item.Id">
+                    
+                </td>
+            </tr>
+
+        }
+
+    </table>
+    <div class="col-sm-12 text-center">
+       <input type="submit" value="Submit"/>
+    </div>
+
+   
+
+}

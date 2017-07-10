@@ -1,0 +1,69 @@
+﻿@model List<ITI_System.Models.Course>
+@{
+    var Dep = TempData["deptartment"] as Department;
+}
+<h2>Courses</h2>
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <tr>
+            <th>
+                Department ID
+            </th>
+            <th>
+                Department Name
+            </th>
+            <th>
+                Department Capacity
+            </th>
+            <th>
+                Manager ID
+            </th>
+        </tr>
+        <tr>
+            <td>
+
+                @Dep.Dept_Id
+            </td>
+            <td>
+                @Dep.Dept_name
+            </td>
+            <td>
+                @Dep.Dept_Capacity
+            </td>
+            <td>
+                @Dep.Manager_Id
+            </td>
+
+        </tr>
+    </table>
+    <table class="table table-bordered table-hover">
+        <tr>
+
+            <th>
+                Course Name
+            </th>
+            <th>
+                Course Lab Duration
+            </th>
+            <th>
+                Course Lect Duration
+            </th>
+            
+        </tr>
+        @foreach (var item in Model)
+            {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(a => item.Crs_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => item.Crs_LabDuration)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => item.Crs_LectDuration)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
